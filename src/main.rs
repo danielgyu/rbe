@@ -9,8 +9,10 @@
 // mod loops;
 // mod functions;
 // mod pointers;
-mod structs;
+// mod structs;
+// mod enums;
+mod cli;
 
 fn main() {
-    structs::run();
+    cli::run();
 }
