@@ -27,4 +27,7 @@ pub fn run() {
     println!("Slice: {:?}", slice);
     let slice: &[i32] = &numbers[0..2];
     println!("Slice from 0 to 2: {:?}", slice);
+    println!("Direct slice: {:?}", &numbers[1..3]);
+
+    // length
 }
